@@ -1,45 +1,4 @@
-local ScreenGui = Instance.new("ScreenGui")
-local Main = Instance.new("Frame")
-local TextLabel = Instance.new("TextLabel")
-local UICorner = Instance.new("UICorner")
-local _1stbutton = Instance.new("TextButton")
-local UICorner_2 = Instance.new("UICorner")
-local _2nddbutton = Instance.new("TextButton")
-local UICorner_3 = Instance.new("UICorner")
-local TextLabel_2 = Instance.new("TextLabel")
-local TextLabel_3 = Instance.new("TextLabel")
-local UICorner_4 = Instance.new("UICorner")
-
---Properties:
-
-ScreenGui.Parent = game.CoreGui
-ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
-
-Main.Name = "Main"
-Main.Parent = ScreenGui
-Main.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Main.BorderColor3 = Color3.fromRGB(0, 0, 0)
-Main.BorderSizePixel = 0
-Main.Position = UDim2.new(0.613286257, 0, 0.475511909, 0)
-Main.Size = UDim2.new(0, 123, 0, 111)
-Main.Active = true
-Main.Draggable = true
-
-TextLabel.Parent = Main
-TextLabel.BackgroundColor3 = Color3.fromRGB(0, 132, 255)
-TextLabel.BorderColor3 = Color3.fromRGB(0, 85, 255)
-TextLabel.BorderSizePixel = 0
-TextLabel.Size = UDim2.new(0, 123, 0, 19)
-TextLabel.Font = Enum.Font.FredokaOne
-TextLabel.Text = "My Supermarket"
-TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel.TextSize = 14.000
-
-UICorner.Parent = TextLabel
-
-_1stbutton.Name = "1stbutton"
-_1stbutton.Parent = Main
-_1stbutton.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+lor3.fromRGB(255, 0, 0)
 _1stbutton.BorderColor3 = Color3.fromRGB(0, 0, 0)
 _1stbutton.BorderSizePixel = 0
 _1stbutton.Position = UDim2.new(0.512194633, 0, 0.310000032, 0)
